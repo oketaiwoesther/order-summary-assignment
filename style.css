@@ -1,0 +1,130 @@
+/* 
+*{
+    text-align: center;
+
+}
+.wrapper{
+width: 500px;
+height: 500px;
+border: 2px solid beige;
+margin: 100px auto;
+font-size: medium;
+background-image: url(./Images/pattern-background-desktop.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+
+.box{
+    width: 310px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+margin: 2px;
+font-weight: 500;
+border: none;
+justify-content: center;
+align-items: center;
+
+}
+.tee{
+    color: grey;
+
+}.wee{
+    line-height: 1px;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+    background-image: url(./Images/pattern-background-desktop.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;background-size: cover;
+}
+.bkg{
+    height: 100%;
+    width: 100%;
+}
+.style{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
+.style-img{
+    border-radius: 15px 15px 0 0;
+    width: 400px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: left 70px;
+padding-right: 70px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-weight: bold;
+font-size: medium;
+
+}
+.change{
+    text-align: end;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 245);
+    width: 80%;margin: auto;
+    font-size: 13px;
+    border-radius: 10px;
+
+}
+.annualplan{
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(116, 114, 114);
+}
+.cancel{
+    color: rgb(116, 114, 114);
+    font-weight: bolder;
+    font-size: large;
+}
+.price{
+    color: rgb(116, 114, 114);
+    font-weight: bold;
+    font-size: medium;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+}
+.pop{
+    color: rgb(116, 114, 114);
+    font-size: large;
+}
+.cancel:hover{
+    color: red;
+    font-size: 20px;
+}
+
+
